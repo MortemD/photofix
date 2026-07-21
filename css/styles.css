@@ -1,0 +1,195 @@
+body {
+    background-color: #FF6E1F;
+    font-family: 'Geist Variable', sans-serif;
+    display: flex;
+    justify-content: center;
+    transform: scale(0.7);
+    transform-origin: top left;
+    width: 142.85%;
+    min-height: 142.85vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container {
+    margin: 30px 30px 0 30px;
+    width: calc(100% - 60px);
+    border-radius: 50px 50px 0 0;
+    background: rgba(250, 243, 225, 0.50);
+    min-height: 100vh;
+    padding-top: 30px;
+    box-sizing: border-box;
+    max-width: 1860px;
+}
+
+.main-area {
+    width: calc(100% - 60px);
+    margin: 0 30px 0 30px;
+    border-radius: 20px 20px 0 0;
+    background: #FDFCFA;
+    min-height: 150vh;
+    padding: 30px 30px 0 30px;
+    box-sizing: border-box;
+}
+
+.photo {
+    border-radius: 10px;
+    background: #FAF3E1;
+    width: 855px;
+    height: 568px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo.empty {
+    border-radius: 10px;
+    background: rgba(250, 243, 225, 0.50);
+    width: 855px;
+    height: 568px;
+}
+
+/* Кнопка */
+.simple-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.btn-img {
+    width: 120px;
+    height: 106px;
+    display: block;
+}
+
+.added-img {
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+
+.btn-img.hover,
+.added-img.hover {
+    display: none;
+}
+
+.simple-btn:hover .btn-img.normal,
+.simple-btn:hover .added-img.normal {
+    display: none;
+}
+
+.simple-btn:hover .btn-img.hover,
+.simple-btn:hover .added-img.hover {
+    display: block;
+}
+
+.added-btns {
+    width: 140px;
+    height: 60px;
+    display: flex;
+    gap: 20px;
+
+    display: none;
+}
+
+.download-btn {
+    display: flex;
+    display: none;
+}
+/**/
+
+.logo {
+    width: 420px;
+    height: 282px;
+    border-radius: 10px;
+    background: #FAF3E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.data {
+    border-radius: 10px;
+    background: #FAF3E1;
+    display: grid;
+    padding: 20px 30px;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.text-block {
+    gap: 0;
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.title-text {
+    height: 37px;
+    align-self: stretch;
+    color: #222;
+    font-family: 'Geist Variable', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.data-text {
+    height: 37px;
+    align-self: stretch;
+    color: #222;
+    font-family: 'Geist Variable', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-block.wide {
+    flex-grow: 1;
+    grid-column: span 3;
+    min-width: 920px;
+    flex: unset;
+}
+
+.title-text.disabled {
+    align-self: stretch;
+    height: 37px;
+    color: rgba(34, 34, 34, 0.50);
+    font-family: 'Geist Variable', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.data-text.disabled {
+    height: 37px;
+    color: rgba(34, 34, 34, 0.50);
+    font-family: 'Geist Variable', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: stretch;
+}
+
+
+
+
+
+

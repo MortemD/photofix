@@ -1,0 +1,14 @@
+{
+  "name": "photofix",
+  "version": "1.0.0",
+  "description": "ML-улучшение изображений в браузере",
+  "main": "main.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "heic2any": "^0.0.4"
+  }
+}
